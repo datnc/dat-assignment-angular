@@ -13,10 +13,11 @@ import { ProductService } from './product.service';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule,AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, ProductListComponent, FooterComponent, ProductComponent, HomeComponent, NotFoundComponent,ProductDetailComponent],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, ProductListComponent, FooterComponent, ProductComponent, HomeComponent, NotFoundComponent,ProductDetailComponent, ServicesComponent],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })

@@ -366,28 +366,28 @@ button.close {
 	padding: 20px;
 }
 .social-icons-set ul li a.facebook{
-	background: url(../images/image-sprit.png) no-repeat -246px 9px #4B5456;
+	background: url(../assets/images/image-sprit.png) no-repeat -246px 9px #4B5456;
 	border-radius: 3em;
 }
 .social-icons-set ul li a.facebook:hover{
-	background: url(../images/image-sprit.png) no-repeat -246px -22px #4B5456;
+	background: url(../assets/images/image-sprit.png) no-repeat -246px -22px #4B5456;
 }
 .social-icons-set ul li a:hover {
 	zoom: 1;	
 }
 .social-icons-set ul li a.twitter{
-	background: url(../images/image-sprit.png) no-repeat 10px 9px #4B5456;
+	background: url(../assets/images/image-sprit.png) no-repeat 10px 9px #4B5456;
 	border-radius: 3em;
 }
 .social-icons-set ul li a.twitter:hover{
-	background: url(../images/image-sprit.png) no-repeat 10px -22px #4B5456;
+	background: url(../assets/images/image-sprit.png) no-repeat 10px -22px #4B5456;
 }
 .social-icons-set ul li a.vimeo{
-	background: url(../images/image-sprit.png) no-repeat -33px 8px #4B5456;
+	background: url(../assets/images/image-sprit.png) no-repeat -33px 8px #4B5456;
 	border-radius: 3em;
 }
 .social-icons-set ul li a.vimeo:hover{
-	background: url(../images/image-sprit.png) no-repeat -33px -23px #4B5456;;
+	background: url(../assets/images/image-sprit.png) no-repeat -33px -23px #4B5456;;
 }
 .top{
 	margin-bottom:8%;

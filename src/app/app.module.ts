@@ -10,11 +10,12 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductComponent } from './product/product.component';
 import { ProductService } from './product.service';
 import { AppRoutingModule } from './app-routing.module';
-import { HoneComponent } from './hone/hone.component';
+import { HomeComponent } from './home/home.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule,AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, ProductListComponent, FooterComponent, ProductComponent, HoneComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, ProductListComponent, FooterComponent, ProductComponent, HomeComponent, NotFoundComponent],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })

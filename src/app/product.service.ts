@@ -13,8 +13,6 @@ export class ProductService {
 return this.http.get<Product[]>(this.api);
 }
   getProduct(id) : Observable<Product>{
-    console.log(id);
     return this.http.get<Product>(`${this.api}/${id}`);
-
   }
 }

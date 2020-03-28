@@ -6,17 +6,17 @@
 	<thead>
     
 		<tr>
-			<th>STT</th>
+			<th></th>
 			<th>Name</th>
 			<th>Price</th>
- 	    <th>Detail</th>
+ 	    <th>Description</th>
 			<th>Action</th>
 		</tr>
 		<tr *ngFor="let product of products;index as i">
 			<th scope="row" width="50">{{i}}</th>
 			<th width="250"><a routerLink="/product/detail/{{product.id}}">{{product.name}}</a></th>
 			<th width="200">{{product.price}}</th>
-      <th>{{product.detail}}</th>
+      <th>{{product.desc}}</th>
       <th width="300" class="text-right">
 				<button class="btn btn-primary" >Edit</button>
 				<button class="btn btn-primary" >Delete</button>

@@ -8,7 +8,7 @@
 <div class="row">
   <div class="col-md-3" *ngFor="let product of products">
             <div class="card h-100">
-              <a routerLink="/product/detail/{{product.id}}"><img class="card-img-top" src="https://i.imgur.com/f8Dx7Oj.jpg" alt=""></a>
+              <a routerLink="/product/detail/{{product.id}}"><img class="card-img-top" src="{{product.image}}" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a routerLink="/product/detail/{{product.id}}">{{product.name}}</a>

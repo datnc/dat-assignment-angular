@@ -16,7 +16,7 @@ product : Product;
   ) { }
 
   ngOnInit() {
-    this.getProduct;
+    this.getProduct();
   }
   getProduct(){
     this.activatedRoute.params.subscribe(param => {

@@ -8,10 +8,10 @@
 <div class="row">
   <div class="col-md-3" *ngFor="let product of products">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="https://i.imgur.com/f8Dx7Oj.jpg" alt=""></a>
+              <a routerLink="/product/{{product.id}}"><img class="card-img-top" src="https://i.imgur.com/f8Dx7Oj.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">{{product.name}}</a>
+                  <a routerLink="/product/detail/{{product.id}}">{{product.name}}</a>
                 </h4>
                 <h5>${{product.price}}</h5>
                 <h5 class="card-text">{{product.desc}}</h5>

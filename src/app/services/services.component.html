@@ -17,9 +17,10 @@
 			<th width="250"><a routerLink="/product/detail/{{product.id}}">{{product.name}}</a></th>
 			<th width="200">{{product.price}}</th>
       <th>{{product.desc}}</th>
-      <th width="300" class="text-right">
-				<button class="btn btn-primary" routerLink="/product/edit">Edit</button>
-				<button class="btn btn-primary" >Delete</button>
+      <th width="400" class="text-right">
+        <button class="btn btn-primary" routerLink="/product/detail/{{product.id}}">Detail</button>
+				<button class="btn btn-info ml-3" routerLink="/product/edit/{{product.id}}">Edit</button>
+				<button class="btn btn-danger ml-2" (click)="deleteProduct(product.id)" >Delete</button>
 			</th>
 		</tr>
 	</thead>

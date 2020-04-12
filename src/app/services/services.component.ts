@@ -21,4 +21,9 @@ getProducts(){
     this.products = data;
   })
 }
+deleteProduct(id){
+  this.productService.deleteProduct(id).subscribe(response => {
+   this.products = this.products.filter(product => product.id != response.id);
+  })
+}
 }

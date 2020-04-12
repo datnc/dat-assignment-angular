@@ -15,4 +15,7 @@ return this.http.get<Product[]>(this.api);
   getProduct(id) : Observable<Product>{
     return this.http.get<Product>(`${this.api}/${id}`);
   }
+  updateProduct(product): Observable<Product>{
+return this.http.put<Product>(`${this.api}/${product.id}`,product);
+  }
 }

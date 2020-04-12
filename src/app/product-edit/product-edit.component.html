@@ -4,7 +4,7 @@
 <h1>Edit Product
   <br><br><br>
 </h1>
-<form>
+<form *ngIf="product">
   <div class="form-group">
     <label>Product Name</label>
     <input type="text" class="form-control" name="name" [(ngModel)]="product.name">
@@ -17,7 +17,7 @@
     <label>Description</label>
     <input type="text" class="form-control" name= "desc" [(ngModel)]="product.desc">
   </div>
-  <button type="button" class="btn btn-primary">Edit Product</button>
+  <button type="button" class="btn btn-primary" (click)="updateProduct()">Edit</button>
 </form>
 <br>
 <hr>

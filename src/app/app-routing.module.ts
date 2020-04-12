@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:'services',component:ServicesComponent},
   {path:'product/detail/:id',component:ProductDetailComponent},
   {path: 'product/add', component:ProductAddComponent},
-  {path: 'product/edit', component:ProductEditComponent},
+  {path: 'product/edit/:id', component:ProductEditComponent},
   {path: '404',component:NotFoundComponent},
   {path: '**',redirectTo:'404', pathMatch:'full'}
 ];

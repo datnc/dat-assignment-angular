@@ -1,10 +1,9 @@
 <app-header></app-header>	
 <div class="container">
   <br>
-    <button  class="btn btn-primary" routerLink="/product/add">Add Product</button>
+    <button  class="btn btn-primary" routerLink="/product/add">Add Product</button><br><br>
 <table class="table table-bordered">
 	<thead>
-    
 		<tr>
 			<th></th>
 			<th>Name</th>
@@ -19,7 +18,7 @@
       <th>{{product.desc}}</th>
       <th width="400" class="text-right">
         <button class="btn btn-primary" routerLink="/product/detail/{{product.id}}">Detail</button>
-				<button class="btn btn-info ml-3" routerLink="/product/edit/{{product.id}}">Edit</button>
+				<button class="btn btn-info ml-2" routerLink="/product/edit/{{product.id}}">Edit</button>
 				<button class="btn btn-danger ml-2" (click)="deleteProduct(product.id)" >Delete</button>
 			</th>
 		</tr>

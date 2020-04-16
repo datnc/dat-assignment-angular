@@ -1,7 +1,5 @@
 /* ------------------------------- 3. Slider Styles ------------------------------- */
-body > div.images-slider {
-	margin-bottom: -5px;
-}
+
 #fwslider {
     position: relative;
     width:100%;
